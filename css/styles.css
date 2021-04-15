@@ -36,6 +36,7 @@
     /*padding: 10rem 12.5rem 10rem 13.75rem;*/
     display: flex;
     max-width: 50rem;
+    height: 400px;
     flex-wrap: wrap;
     overflow: hidden;
     border-radius: 0.5rem;
