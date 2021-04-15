@@ -1,0 +1,118 @@
+
+  body {
+    background-color: #f5f5f5;
+    display: grid;
+    margin: 0;
+    min-height: 100vh;
+    place-content: center;
+    padding: 1rem;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-family: 'Big Shoulders Display', cursive;
+    /* margin: auto; */
+    /*text-align: left;*/
+    /*width: 12.5rem;*/
+  }
+
+  img {
+    /*margin: 40px 70px 30px 50px;*/
+  }
+
+  p {
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    /*margin: 25px 50px 50px 50px;*/
+    margin-bottom: 4rem;
+    /*text-align: left;*/
+    /*width: 12.5rem;*/
+
+  }
+
+  .big-container {
+    background-color: white;
+    /*margin: 12.5rem 1.87rem;*/
+    /*padding: 10rem 12.5rem 10rem 13.75rem;*/
+    display: flex;
+    max-width: 50rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+
+  }
+
+  .small-container1 {
+    background-color: #FFA500;
+    /*border-radius: 10px 0 0 10px;
+    display: inline-block;
+    height: 28.1rem;
+    width: 18.8rem;*/
+
+  }
+
+  .small-container2 {
+    background-color: #008B8B;
+    /*display: inline-block;
+    height: 28.1rem;
+    width: 18.8rem;*/
+
+
+  }
+
+  .small-container3 {
+    background-color: #004949;
+    /*border-radius: 0 10px 10px 0;
+    display: inline-block;
+    height: 28.1rem;
+    width: 18.8rem;*/
+
+  }
+
+  .button {
+    background-color: #ffffff;
+    border-radius: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: auto;
+  }
+
+  .button:hover {
+    background-color: inherit;
+    color: #d8d8d8;
+    border: 2px solid #d8d8d8;
+  }
+
+  .small-container1 a {
+    color: #FFA500;
+  }
+
+  .small-container2 a {
+    color: #008B8B;
+  }
+
+  .small-container3 a {
+    color: #004949;
+  }
+
+  .attribution {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    text-decoration: none;
+  }
+  .big-container > * {
+    padding: 2rem;
+    flex: 1 1 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
